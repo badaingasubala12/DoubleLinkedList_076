@@ -112,6 +112,7 @@ bool DoubleLinkedList::listEmpty() {
 	return (START == NULL);
 }
 
+
 void DoubleLinkedList::traverse() {
 	if (listEmpty())
 		cout << "\nList is Empty" << endl;
