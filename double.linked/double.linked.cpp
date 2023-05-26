@@ -135,9 +135,7 @@ void DoubleLinkedList::revtraverse() {
 	else {
 
 		cout << "\nRecords in descending order of roll number are:" << endl;
-
 		Node* currentNode = START;
-
 		while (currentNode->next != NULL) currentNode = currentNode->next;
 
 		while (currentNode != NULL) {
@@ -146,6 +144,7 @@ void DoubleLinkedList::revtraverse() {
 		}
 	}
 }
+
 
 void DoubleLinkedList::hapus() {
 	if (listEmpty()) {
